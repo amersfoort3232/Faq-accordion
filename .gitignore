@@ -3,7 +3,8 @@
 ## Please do not remove lines 5 and 6 - thanks! 🙂 ##
 #####################################################
 *.sketch
-*.figgit rm -r --cached
+*.fig
+git rm -r --cached
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
