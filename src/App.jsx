@@ -51,10 +51,9 @@ function FAQ({ question, answer, airaControlContent }) {
   return (
     <div className="faq-each-container">
       <div className="question-container">
-        <h3 className="question">
-          {" "}
+        <div className="question">
           <Icon />
-        </h3>
+        </div>
       </div>
       {isOpen && (
         <p className="answer" id={airaControlContent}>
